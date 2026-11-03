@@ -1,0 +1,23 @@
+name: Data correction / 数据纠错
+description: Correct metadata, classification, source attribution or resource links.
+title: '[Correction] '
+body:
+  - type: input
+    id: paper
+    attributes:
+      label: Paper ID or title / 论文ID或标题
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Current value and proposed correction / 当前值与建议修改
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Primary evidence / 原始证据
+      description: Include source URLs, relevant fields and any version relationship. For attribution/removal requests, describe the issue without exposing personal information.
+    validations:
+      required: true

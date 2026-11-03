@@ -1,0 +1,23 @@
+name: Website bug / 页面问题
+description: Report a reproducible search, layout or interaction defect.
+title: '[Bug] '
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps / 复现步骤
+      description: State the selected filters or public URL; remove private data.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior / 预期与实际结果
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser, OS, online/offline / 浏览器、系统、在线或离线
+    validations:
+      required: true

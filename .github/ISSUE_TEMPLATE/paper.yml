@@ -1,0 +1,53 @@
+name: Paper suggestion / 论文推荐
+description: Recommend an in-scope paper with primary-source evidence.
+title: '[Paper] '
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title / 论文标题
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Primary sources / 原始来源
+      description: DOI, arXiv, official proceedings, author page; not only an aggregator.
+    validations:
+      required: true
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Research domain / 研究方向
+      options:
+        - av — 音视频联合
+        - video — 视频
+        - audio — 音频
+        - image — 图像
+        - general — 跨媒体
+        - related — 相关研究
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Research value and reading scope / 研究价值与阅读范围
+      description: Explain the question, method, experiments or limitations you inspected.
+    validations:
+      required: true
+  - type: textarea
+    id: identity
+    attributes:
+      label: Publication status and possible existing match / 发表状态与已有记录
+      description: Distinguish main conference, workshop, journal, preprint and author-only claims. Include matching IDs if any.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Before submitting / 提交前
+      options:
+        - label: I searched the current list for the title, DOI and arXiv ID.
+          required: true
+        - label: I did not invent missing information or paste unlicensed long text.
+          required: true

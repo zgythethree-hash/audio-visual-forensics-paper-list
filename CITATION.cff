@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Cite the original papers for their findings. Cite this index with its data version and access date."
+title: "Audio-Visual Forensics Paper List"
+authors:
+  - name: "Audio-Visual Forensics Paper List contributors"
+type: software
+version: 1.0.0
+date-released: 2026-11-03
+repository-code: "https://github.com/zgythethree-hash/audio-visual-forensics-paper-list"
+url: "https://zgythethree-hash.github.io/audio-visual-forensics-paper-list/"
+license: MIT
+abstract: "Offline-first multimedia forensics research index. MIT covers project-owned code, not third-party scholarly content. Initial public release contains the 2026-10-28 data snapshot."

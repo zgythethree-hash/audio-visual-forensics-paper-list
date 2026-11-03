@@ -1,0 +1,35 @@
+# Local research history: preserved locally, never published by default.
+/backups/
+/reading-advisory-*/
+/update-*/
+/agent-flow.md
+/UPDATE-*.md
+/atlas-share-20*.html
+/scripts/*.py
+
+# Generated site and machine-readable exports.
+/_site/
+/_exports/
+/artifacts/
+/node_modules/
+/test-results/
+/playwright-report/
+/coverage/
+*.log
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+
+# Credentials, editor state and OS files.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.npmrc
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

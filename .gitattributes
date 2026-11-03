@@ -1,0 +1,11 @@
+* text=auto eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.md text eol=lf
+*.mjs text eol=lf
+*.yml text eol=lf
+*.png binary
+*.jpg binary
+# Preserve the verified standalone snapshot byte for byte.
+atlas-share-latest.html -text whitespace=trailing-space,space-before-tab,cr-at-eol
